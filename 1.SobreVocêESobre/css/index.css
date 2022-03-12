@@ -1,0 +1,276 @@
+@charset "utf-8";
+
+body, p, h1, h2, h3, ul, li, blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.coxinha {
+    max-width: 50px;
+    align-items: center;
+}
+
+.containerpinicial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:50px 0;
+    flex-direction: column;
+}
+
+.pinicial {
+    display: flex;
+    flex-direction: column;
+    max-width: 820px;
+    line-height: 60px;
+    padding: 20px 20px;
+    text-align: center;
+    
+}
+
+.pinicial ul li{
+    font-family: 'Merriweather';
+    font-size: 2em;
+}
+
+.button  {
+    width: 150px;
+    height: 45px;
+    margin-top: 15px;
+    background: #000;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    border: 1.5px solid #000;
+    border-radius: 50px;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+}
+
+.button:hover {
+    color: #000;
+    background: #fff;
+    transition: 0.3s;
+}
+
+#structure{
+    display: grid;
+    grid-template-columns: minmax(200px, 250px)  1fr;
+    position: relative;
+    
+}
+
+.headerprincipal > ul {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.headerprincipal > ul > a >  li {
+    font-size: 1.4em;
+    padding: 20px 10px;
+    transition: 0.3s;
+}
+
+.headerprincipal > ul > a > li:hover {    
+    background: #c4c4c4;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+
+.buttontwo {
+    margin: 20px 40px;
+}
+
+.headerprincipal > ul > a > li{
+    margin: 0 40px;
+}
+
+.container {
+    position: relative;
+    max-width: 1250px;
+    margin: 0 10px;
+}
+
+.futuro > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1.5px solid #c4c4c4;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px  ;
+}
+
+.futuro > div:hover{
+    box-shadow: 1px 1px 3px 3px #c4c4c4;
+}
+
+.futuro > div > img{
+    width: 95%;
+    object-fit: cover;
+    margin: 10px 10px; 
+    border-radius: 10px;
+}
+
+h2 {
+    margin: 20px 10px;
+    font-size: 2.5em;
+    font-family: sans-serif;
+}
+
+.pratos > a > img {
+    width: 30%;
+    object-fit: cover;
+    border-radius: 5%;
+    margin: 10px 2px 40px 0;
+    transition: 0.1s;
+    
+}
+
+/*.pratos > a > img:hover {
+    width: 31%;
+    transition: 0.1s;
+}*/
+
+.sections  {
+    display: flex;
+    flex-direction: column;
+    border: 1.5px solid #c4c4c4;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.box:hover{
+    box-shadow: 1px 1px 3px 3px #c4c4c4;
+}
+
+h3 {
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.curiosidades > dl > dt {
+    font-size: 1.3em;
+    color: #454b52;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.curiosidades > dl > dd {
+    font-style: italic;
+    font-size: 1.2em;
+    color: #454b52;
+    margin-bottom: 20px;
+}
+
+.curiosidades {
+    padding: 0 10px 10px 10px;
+}
+
+.memes > div > img {
+    width: 90%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/*Pratos*/
+
+.headerpratos  {
+    background:    #ff6a28;
+    width: 100%;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.containerpratos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(240, 240, 240);
+}
+
+
+
+.containerpratos > section {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    min-width: 10%;
+    background: #fff;
+    
+    flex-flow: column;
+    margin: 0 10px 20px 0;
+    border-radius: 5px;
+}
+
+.containerpratos > section > h3  {
+    text-transform: uppercase;
+    color: #ff6a28;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 1.6em;
+    margin: 20px 0;
+}
+
+.containerpratos > section > div > h4  {
+    background:rgb(240, 240, 240); 
+    margin: 0 10px; 
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.containerpratos > section > ol {
+    margin: 10px 10px;
+    line-height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+/*coxinha*/
+.imgcoxinha {
+   width: 700px;
+    object-fit: cover;
+    text-align: center;
+}
+
+.containercoxinha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1300px;
+    margin: 10px 20px;
+    text-align: center;
+    font-family: sans-serif;
+    font-family: 100;
+}
+
+.containercoxinha > h1 {
+    text-transform: uppercase;
+
+}
